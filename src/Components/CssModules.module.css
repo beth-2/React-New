@@ -1,0 +1,14 @@
+.primary{
+    color: white;
+    position: relative;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #111a21;
+}
+#cards{
+    position:relative;
+    left:400px;
+    top:200px;
+}

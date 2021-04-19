@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Bind from './Components/Bind';
+import ApproveCard from './Components/ApproveCard';
+import CssExample from './Components/CssExample';
+//import "./styles.css";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <Bind/>
+      <CssExample/>
+      <ApproveCard name="John Doe" comment="Have a Nice Day" relationship="Friends of Bob"/>
+      <ApproveCard name="Bob Jobs" comment="Beautiful Day" relationship="Friends of John"/>
+        
     </div>
   );
 }
